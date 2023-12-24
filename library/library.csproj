@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ServcoX.Rfc7515C</AssemblyName>
+    <RootNamespace>ServcoX.Rfc7515C</RootNamespace>
+    <TargetFrameworks>net8.0;net7.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ServcoX.Rfc7515C</PackageId>
+    <Title>RFC7515C</Title>
+    <Description>Variant of Base64 that can be used in URLs</Description>
+    <PackageProjectUrl>https://github.com/servcox/rfc7515c</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/servcox/rfc7515c/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/servcox/rfc7515c</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Company>ServcoX</Company>
+    <Product>ServcoX RFC7515C</Product>
+
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsNotAsErrors>NU5125;CA1822</WarningsNotAsErrors>
+    <NoWarn>CA1040;CA1711;CA1716</NoWarn>
+    <AnalysisMode>All</AnalysisMode>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
