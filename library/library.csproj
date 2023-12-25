@@ -2,14 +2,12 @@
 
   <PropertyGroup>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <AssemblyName>ServcoX.Rfc7515C</AssemblyName>
     <RootNamespace>ServcoX.Rfc7515C</RootNamespace>
-    <TargetFrameworks>net8.0;net7.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>ServcoX.Rfc7515C</PackageId>
     <Title>RFC7515C</Title>
-    <Description>Variant of Base64 that can be used in URLs</Description>
+    <Description>Alternative to Base64 that can be used safely in URLs.</Description>
     <PackageProjectUrl>https://github.com/servcox/rfc7515c</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/servcox/rfc7515c/blob/main/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/servcox/rfc7515c</RepositoryUrl>
@@ -22,6 +20,9 @@
     <NoWarn>CA1040;CA1711;CA1716</NoWarn>
     <AnalysisMode>All</AnalysisMode>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <TargetFramework>netstandard1.2</TargetFramework>
+    <LangVersion>12</LangVersion>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 </Project>
