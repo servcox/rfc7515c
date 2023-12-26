@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>ServcoX.Rfc7515C</PackageId>
     <Title>RFC7515C</Title>
-    <Description>Alternative to Base64 that can be used safely in URLs.</Description>
+    <Description>URL-friendly alternative to Base64. Implements RFC7515 appendix C.</Description>
     <PackageProjectUrl>https://github.com/servcox/rfc7515c</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/servcox/rfc7515c/blob/main/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/servcox/rfc7515c</RepositoryUrl>
