@@ -16,21 +16,23 @@
     <Product>ServcoX RFC7515C</Product>
 
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <WarningsNotAsErrors>NU5125;CA1822</WarningsNotAsErrors>
-    <NoWarn>CA1040;CA1711;CA1716</NoWarn>
+    <WarningsNotAsErrors>NU5125;CA1822;</WarningsNotAsErrors>
+    <NoWarn>CA1040;CA1711;CA1716;CA1510;CA1307</NoWarn>
     <AnalysisMode>All</AnalysisMode>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <TargetFramework>netstandard1.2</TargetFramework>
     <LangVersion>12</LangVersion>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <PackageIcon>servco.png</PackageIcon>
+    <TargetFrameworks>netstandard1.2;net7.0;net8.0</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="servco.png">
+    <None Remove="servco.png" />
+    <Content Include="servco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Pack>True</Pack>
       <PackagePath></PackagePath>
-    </None>
+    </Content>
   </ItemGroup>
 
 </Project>
